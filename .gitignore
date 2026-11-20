@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Node
+node_modules/
+dist/
+
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# 数据库与运行时产物(由 seed.py 自动重建)
+data/
+*.db
+*.sqlite3
+
+# 日志与环境变量
+*.log
+.env
+.env.*
+
+# 测试过程残留
+api_check.json
+api_test.json
+chk*.json
+test_login.py
+测试帐号.txt
+测试币号.txt
+
+# 本地工具与运行时测试上传
+.claude/
+uploads/27add6339144441e91dc66077c9038b0.png
+
+# 系统文件
+.DS_Store
+Thumbs.db
